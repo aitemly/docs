@@ -9,8 +9,11 @@ importers:
   .:
     devDependencies:
       vitepress:
-        specifier: next
-        version: 2.0.0-alpha.16(postcss@8.5.8)
+        specifier: 2.0.0-alpha.15
+        version: 2.0.0-alpha.15(postcss@8.5.8)
+      vue:
+        specifier: ^3.5.26
+        version: 3.5.30
 
 packages:
 
@@ -36,9 +39,6 @@ packages:
 
   '@docsearch/js@4.6.0':
     resolution: {integrity: sha512-9/rbgkm/BgTq46cwxIohvSAz3koOFjnPpg0mwkJItAfzKbQIj+310PvwtgUY1YITDuGCag6yOL50GW2DBkaaBw==}
-
-  '@docsearch/sidepanel-js@4.6.0':
-    resolution: {integrity: sha512-lFT5KLwlzUmpoGArCScNoK41l9a22JYsEPwBzMrz+/ILVR5Ax87UphCuiyDFQWEvEmbwzn/kJx5W/O5BUlN1Rw==}
 
   '@esbuild/aix-ppc64@0.27.4':
     resolution: {integrity: sha512-cQPwL2mp2nSmHHJlCyoXgHGhbEPMrEEU5xhkcy3Hs/O7nGZqEpZ2sUtLaL9MORLtDfRvVl2/3PAuEkYZH0Ty8Q==}
@@ -703,8 +703,8 @@ packages:
       yaml:
         optional: true
 
-  vitepress@2.0.0-alpha.16:
-    resolution: {integrity: sha512-w1nwsefDVIsje7BZr2tsKxkZutDGjG0YoQ2yxO7+a9tvYVqfljYbwj5LMYkPy8Tb7YbPwa22HtIhk62jbrvuEQ==}
+  vitepress@2.0.0-alpha.15:
+    resolution: {integrity: sha512-jhjSYd10Z6RZiKOa7jy0xMVf5NB5oSc/lS3bD/QoUc6V8PrvQR5JhC9104NEt6+oTGY/ftieVWxY9v7YI+1IjA==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4
@@ -747,8 +747,6 @@ snapshots:
   '@docsearch/css@4.6.0': {}
 
   '@docsearch/js@4.6.0': {}
-
-  '@docsearch/sidepanel-js@4.6.0': {}
 
   '@esbuild/aix-ppc64@0.27.4':
     optional: true
@@ -1329,11 +1327,10 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitepress@2.0.0-alpha.16(postcss@8.5.8):
+  vitepress@2.0.0-alpha.15(postcss@8.5.8):
     dependencies:
       '@docsearch/css': 4.6.0
       '@docsearch/js': 4.6.0
-      '@docsearch/sidepanel-js': 4.6.0
       '@iconify-json/simple-icons': 1.2.74
       '@shikijs/core': 3.23.0
       '@shikijs/transformers': 3.23.0
