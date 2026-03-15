@@ -1,11 +1,35 @@
-# Aitemly 文档
+---
+layout: home
 
-欢迎来到 Aitemly 项目文档站。这里集中展示项目的设计、功能说明与迭代计划。
+hero:
+  name: Aitemly
+  text: 项目文档
+  tagline: 设计、功能与迭代计划集中呈现，助力理解与协作
+  actions:
+    - theme: brand
+      text: 设计
+      link: /design/
+    - theme: alt
+      text: 功能说明
+      link: /guide/
+    - theme: alt
+      text: 迭代计划
+      link: /roadmap/
 
-## 导航
-
-- [设计](/design/) — 产品 / 交互 / 视觉设计说明
-- [功能](/guide/) — 功能说明与使用指南
-- [迭代计划](/roadmap/) — 版本与迭代规划
-
-后续内容将逐步完善。
+features:
+  - icon: 🎨
+    title: 设计
+    details: 产品、交互与视觉设计说明，统一设计语言与规范
+    link: /design/
+    linkText: 查看设计
+  - icon: ⚡
+    title: 功能
+    details: 功能说明与使用指南，快速上手与深入使用
+    link: /guide/
+    linkText: 查看功能
+  - icon: 🗺️
+    title: 迭代计划
+    details: 版本规划与路线图，了解进展与后续方向
+    link: /roadmap/
+    linkText: 查看计划
+---
