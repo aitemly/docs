@@ -1,0 +1,12 @@
+# Dependencies
+node_modules
+
+# VitePress
+.vitepress/dist
+.vitepress/cache
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# Misc
+.DS_Store
+*.local
