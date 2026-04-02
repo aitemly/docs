@@ -1,6 +1,6 @@
 # Aitemly Docs
 
-Aitemly 项目文档站，基于 [VitePress](https://vitepress.dev/) 构建，部署于 [docs.itemly.com](https://docs.itemly.com)。用于展示项目的设计、功能说明与迭代计划。
+Aitemly 项目文档站，基于 [VitePress](https://vitepress.dev/) 构建，部署于 [docs.aitemly.com](https://docs.aitemly.com)。用于展示项目的设计、功能说明与迭代计划。
 
 ## 本地开发
 
@@ -27,4 +27,4 @@ pnpm run docs:preview # 本地预览构建结果
 
 ## 部署
 
-推送至 `main` 分支后，由 GitHub Actions 自动构建并部署到 GitHub Pages，自定义域名为 **docs.itemly.com**。
+推送至 `main` 分支后，由 GitHub Actions 自动构建并部署到 GitHub Pages，自定义域名为 **docs.aitemly.com**。
