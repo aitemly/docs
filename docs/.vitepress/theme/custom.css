@@ -9,6 +9,12 @@
   overflow: hidden;
 }
 
+/* 粒子层在 z-index:1，其余首页块叠在上面以便可点击、可读 */
+.VPHome > :not(.vp-home-particles) {
+  position: relative;
+  z-index: 2;
+}
+
 .VPHome::before {
   content: '';
   position: absolute;
