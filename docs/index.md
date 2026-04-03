@@ -30,12 +30,12 @@ features:
     details: 功能说明与使用指南，快速上手与深入使用
     link: /guide/
     linkText: 查看功能
-  - icon: 📝
+  - icon: ✏️
     title: 博客
     details: 项目相关的思考与分析，记录设计决策和技术探索
     link: /blog/
     linkText: 查看博客
-  - icon: 🗺️
+  - icon: 🚀
     title: 迭代计划
     details: 版本规划与路线图，了解进展与后续方向
     link: /roadmap/
